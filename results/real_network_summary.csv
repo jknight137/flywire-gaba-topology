@@ -1,0 +1,2 @@
+n_neurons,n_reciprocal_pairs,n_directed_edges,density,reciprocity,mean_in_degree,mean_out_degree,max_total_degree,n_components,giant_component_size,global_transitivity,mean_local_clustering
+77607,180799,361598,6.0038498817750245e-05,1.0,4.659347739250325,4.659347739250325,7280,1245,74492,0.0192853421638594,0.07543989053094971

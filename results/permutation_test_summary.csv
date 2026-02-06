@@ -1,0 +1,2 @@
+test,observed_gaba_gaba,null_mean_gaba_gaba,null_median_gaba_gaba,null_std_gaba_gaba,null_ci_95_low,null_ci_95_high,null_max,fold_obs_vs_null_mean,p_value,n_permutations,ach_gaba_null_zero_frac
+GABA-GABA transitivity vs null,0.3962489482398285,0.04071438798410241,0.024023648508687052,0.034833882229778734,0.00472269982721257,0.1174098299893233,0.1812142616885301,9.732405860909669,<0.001,1000,1.0
