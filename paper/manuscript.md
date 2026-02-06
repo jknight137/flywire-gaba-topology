@@ -452,11 +452,11 @@ _Note: Transitivity was computed using the undirected form of each subnetwork (s
 
 ## Data Availability
 
-All connectivity data is derived from the FlyWire v630 whole-brain connectome (Dorkenwald et al., 2024), publicly available at https://codex.flywire.ai/. Neurotransmitter predictions are from Eckstein et al. (2024). Processed datasets and analysis scripts are available at [GITHUB REPO URL].
+All connectivity data is derived from the FlyWire v630 whole-brain connectome (Dorkenwald et al., 2024), publicly available at https://codex.flywire.ai/. Neurotransmitter predictions are from Eckstein et al. (2024). Processed datasets and analysis scripts are available at https://github.com/jknight137/flywire-gaba-topology.
 
 ## Code Availability
 
-All analysis code, including network construction, subnetwork extraction, transitivity computation, bootstrap resampling, permutation testing, hub sensitivity analysis, and figure generation, is available at [GITHUB REPO URL].
+All analysis code, including network construction, subnetwork extraction, transitivity computation, bootstrap resampling, permutation testing, hub sensitivity analysis, and figure generation, is available at https://github.com/jknight137/flywire-gaba-topology.
 
 ## Author Contributions
 
