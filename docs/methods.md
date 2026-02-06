@@ -171,7 +171,7 @@ All analyses were performed in **Python 3.10+** using:
 
 ### Reproducibility
 
-All analysis scripts are available in the [GitHub repository](https://github.com/yourusername/flywire-gaba-topology/tree/master/analysis).
+All analysis scripts are available in the [GitHub repository](https://github.com/jknight137/flywire-gaba-topology/tree/master/analysis).
 
 **Execution order:**
 
@@ -207,9 +207,9 @@ Pre-computed results are included in `results/` so you can skip directly to figu
 
 All data and code are publicly available:
 
-- **Primary dataset:** [v630-all-reciprocal-pairs-s1.csv](https://github.com/yourusername/flywire-gaba-topology/tree/master/data)
-- **Analysis code:** [analysis/](https://github.com/yourusername/flywire-gaba-topology/tree/master/analysis)
-- **Pre-computed results:** [results/](https://github.com/yourusername/flywire-gaba-topology/tree/master/results)
+- **Primary dataset:** [v630-all-reciprocal-pairs-s1.csv](https://github.com/jknight137/flywire-gaba-topology/tree/master/data)
+- **Analysis code:** [analysis/](https://github.com/jknight137/flywire-gaba-topology/tree/master/analysis)
+- **Pre-computed results:** [results/](https://github.com/jknight137/flywire-gaba-topology/tree/master/results)
 
 ---
 

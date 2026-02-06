@@ -151,8 +151,8 @@ We thank the entire connectomics community for making this data available under 
 
 ## Contact
 
-- **GitHub:** [github.com/yourusername/flywire-gaba-topology](https://github.com/yourusername/flywire-gaba-topology)
-- **Issues:** [Report bugs or ask questions](https://github.com/yourusername/flywire-gaba-topology/issues)
+- **GitHub:** [github.com/jknight137/flywire-gaba-topology](https://github.com/jknight137/flywire-gaba-topology)
+- **Issues:** [Report bugs or ask questions](https://github.com/jknight137/flywire-gaba-topology/issues)
 - **Email:** [your.email@institution.edu](mailto:your.email@institution.edu)
 
 ## Website Information

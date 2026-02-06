@@ -20,7 +20,7 @@ git push -u origin master
 
 ### Step 3: Update Your Username
 
-Replace `yourusername` with your actual GitHub username in these files:
+Replace `jknight137` with your actual GitHub username in these files:
 
 **docs/\_config.yml** (line 6-7):
 

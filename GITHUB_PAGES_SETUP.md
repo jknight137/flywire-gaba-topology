@@ -6,7 +6,7 @@ This guide will help you activate the GitHub Pages website for your project.
 
 ### Step 1: Enable GitHub Pages
 
-1. Go to your repository on GitHub: `https://github.com/yourusername/flywire-gaba-topology`
+1. Go to your repository on GitHub: `https://github.com/jknight137/flywire-gaba-topology`
 2. Click on **Settings** (gear icon at the top)
 3. In the left sidebar, click **Pages**
 4. Under **Source**, select:
@@ -18,17 +18,17 @@ This guide will help you activate the GitHub Pages website for your project.
 
 GitHub will automatically build and deploy your site. This takes 1-2 minutes.
 
-You'll see a message: "Your site is live at `https://yourusername.github.io/flywire-gaba-topology/`"
+You'll see a message: "Your site is live at `https://jknight137.github.io/flywire-gaba-topology/`"
 
 ### Step 3: Update URLs
 
-Replace `yourusername` in the following files with your actual GitHub username:
+Replace `jknight137` in the following files with your actual GitHub username:
 
 **In `docs/_config.yml`:**
 
 ```yaml
-url: "https://yourusername.github.io"
-repository: yourusername/flywire-gaba-topology
+url: "https://jknight137.github.io"
+repository: jknight137/flywire-gaba-topology
 ```
 
 **In `docs/index.md`:** Update all GitHub links to your repository
@@ -43,7 +43,7 @@ git commit -m "Configure GitHub Pages URLs"
 git push
 ```
 
-Your site will be live at: `https://yourusername.github.io/flywire-gaba-topology/`
+Your site will be live at: `https://jknight137.github.io/flywire-gaba-topology/`
 
 ---
 
@@ -137,7 +137,7 @@ To use a custom domain like `gaba-topology.yourlab.edu`:
 1. In GitHub Settings → Pages, enter your custom domain
 2. Add a `CNAME` file to `docs/` with your domain name
 3. Configure DNS with your domain provider:
-   - Add CNAME record pointing to `yourusername.github.io`
+   - Add CNAME record pointing to `jknight137.github.io`
 
 ### Analytics (Optional)
 

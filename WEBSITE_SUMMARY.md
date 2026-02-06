@@ -78,8 +78,8 @@ A complete, professional GitHub Pages website for your GABA topology research pr
    - Click Save
 
 3. **Update URLs:**
-   - Replace `yourusername` in `docs/_config.yml`
-   - Replace `yourusername` in `docs/index.md` links
+   - Replace `jknight137` in `docs/_config.yml`
+   - Replace `jknight137` in `docs/index.md` links
    - Commit and push changes
 
 ### Optional Customization
@@ -312,7 +312,7 @@ Before going live:
 
 - [ ] Push all files to GitHub
 - [ ] Enable GitHub Pages in repository settings
-- [ ] Update `yourusername` in `_config.yml`
+- [ ] Update `jknight137` in `_config.yml`
 - [ ] Update GitHub links in `index.md`
 - [ ] Update author name and email
 - [ ] Test all navigation links

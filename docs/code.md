@@ -401,7 +401,7 @@ If you use this code, please cite:
   title={Analysis Code for Neurotransmitter-Specific Clustering in Drosophila Connectome},
   author={[Author]},
   year={2026},
-  url={https://github.com/yourusername/flywire-gaba-topology}
+  url={https://github.com/jknight137/flywire-gaba-topology}
 }
 ```
 
@@ -409,7 +409,7 @@ If you use this code, please cite:
 
 ## License
 
-This project is licensed under the **MIT License** — see [LICENSE](https://github.com/yourusername/flywire-gaba-topology/blob/master/LICENSE) for details.
+This project is licensed under the **MIT License** — see [LICENSE](https://github.com/jknight137/flywire-gaba-topology/blob/master/LICENSE) for details.
 
 The FlyWire data is licensed under **CC-BY 4.0** by the FlyWire consortium.
 

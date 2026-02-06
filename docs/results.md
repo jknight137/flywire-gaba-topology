@@ -77,7 +77,7 @@ Transitivity varies systematically across NT pair types:
 
 ### All 21 NT-Pair Combinations
 
-Full statistics for all neurotransmitter pair combinations are available in [Supplementary Table S1](https://github.com/yourusername/flywire-gaba-topology/blob/master/results/supplementary_table_s1_all_21_pairs.csv).
+Full statistics for all neurotransmitter pair combinations are available in [Supplementary Table S1](https://github.com/jknight137/flywire-gaba-topology/blob/master/results/supplementary_table_s1_all_21_pairs.csv).
 
 ---
 

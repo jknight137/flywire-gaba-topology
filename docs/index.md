@@ -112,10 +112,10 @@ The extreme segregation between inhibitory (clustered) and excitatory (sparse) t
 ## Resources
 
 <div class="resource-links">
-  <a href="https://github.com/yourusername/flywire-gaba-topology" class="btn">📦 GitHub Repository</a>
-  <a href="https://github.com/yourusername/flywire-gaba-topology/tree/master/data" class="btn">📊 Dataset</a>
-  <a href="https://github.com/yourusername/flywire-gaba-topology/tree/master/analysis" class="btn">💻 Analysis Code</a>
-  <a href="https://github.com/yourusername/flywire-gaba-topology/tree/master/results" class="btn">📈 Results</a>
+  <a href="https://github.com/jknight137/flywire-gaba-topology" class="btn">📦 GitHub Repository</a>
+  <a href="https://github.com/jknight137/flywire-gaba-topology/tree/master/data" class="btn">📊 Dataset</a>
+  <a href="https://github.com/jknight137/flywire-gaba-topology/tree/master/analysis" class="btn">💻 Analysis Code</a>
+  <a href="https://github.com/jknight137/flywire-gaba-topology/tree/master/results" class="btn">📈 Results</a>
 </div>
 
 ---

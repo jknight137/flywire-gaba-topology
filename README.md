@@ -2,7 +2,7 @@
 
 Analysis code and data for the paper investigating how neurotransmitter identity shapes network topology in the FlyWire v630 whole-brain connectome.
 
-**🌐 [View Project Website](https://yourusername.github.io/flywire-gaba-topology/)** — Interactive documentation with detailed methods, results, and visualizations
+**🌐 [View Project Website](https://jknight137.github.io/flywire-gaba-topology/)** — Interactive documentation with detailed methods, results, and visualizations
 
 ## Key Findings
 
@@ -88,7 +88,7 @@ The primary dataset (`data/v630-all-reciprocal-pairs-s1.csv`) is derived from th
 
 ## GitHub Pages Website
 
-Visit our [project website](https://yourusername.github.io/flywire-gaba-topology/) for:
+Visit our [project website](https://jknight137.github.io/flywire-gaba-topology/) for:
 
 - Interactive documentation and visualizations
 - Detailed methodology and statistical analyses
