@@ -25,6 +25,7 @@ You'll see a message: "Your site is live at `https://yourusername.github.io/flyw
 Replace `yourusername` in the following files with your actual GitHub username:
 
 **In `docs/_config.yml`:**
+
 ```yaml
 url: "https://yourusername.github.io"
 repository: yourusername/flywire-gaba-topology
@@ -53,6 +54,7 @@ To preview the site locally before pushing:
 ### Prerequisites
 
 Install Ruby and Bundler:
+
 - **Windows:** Download from [rubyinstaller.org](https://rubyinstaller.org/)
 - **Mac:** `brew install ruby`
 - **Linux:** `sudo apt-get install ruby-full build-essential zlib1g-dev`
@@ -94,6 +96,7 @@ email: your.email@institution.edu
 ### Change Colors/Styling
 
 Edit `docs/assets/css/style.scss` to customize:
+
 - Color scheme (search for `#667eea` and `#764ba2`)
 - Typography
 - Layout spacing
@@ -154,7 +157,6 @@ layout: default
 title: Page Not Found
 permalink: /404.html
 ---
-
 # 404 - Page Not Found
 
 The page you're looking for doesn't exist.
@@ -170,7 +172,7 @@ The page you're looking for doesn't exist.
 
 1. Check the **Actions** tab in your GitHub repository for build errors
 2. Ensure `docs/_config.yml` has valid YAML syntax
-3. Verify all required files exist (index.md, _config.yml)
+3. Verify all required files exist (index.md, \_config.yml)
 
 ### 404 Errors for Pages
 
@@ -205,7 +207,7 @@ bundle exec jekyll build
 ✅ **MathJax** — LaTeX equation rendering  
 ✅ **Responsive Design** — Mobile-friendly layout  
 ✅ **SEO Optimization** — Meta tags and sitemap  
-✅ **Syntax Highlighting** — Code block styling  
+✅ **Syntax Highlighting** — Code block styling
 
 ---
 

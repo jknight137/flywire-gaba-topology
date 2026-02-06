@@ -97,6 +97,7 @@ docs/
 ## Component Breakdown
 
 ### Header (in default.html)
+
 ```
 ┌────────────────────────────────────────┐
 │  Project Title                         │
@@ -108,6 +109,7 @@ docs/
 ```
 
 ### Content Area (markdown files)
+
 ```
 ┌────────────────────────────────────────┐
 │  # Page Title                          │
@@ -121,6 +123,7 @@ docs/
 ```
 
 ### Footer (in default.html)
+
 ```
 ┌────────────────────────────────────────┐
 │  Maintained by: [Author]               │
@@ -170,6 +173,7 @@ style.scss
 ## Data Flow
 
 ### User Visits Site
+
 ```
 1. GitHub Pages receives request
    ↓
@@ -189,6 +193,7 @@ style.scss
 ```
 
 ### Developer Updates Content
+
 ```
 1. Edit .md file locally
    ↓
@@ -315,7 +320,7 @@ Common User Journeys:
 Researcher Looking for Methods:
 Home → Methods → Code
 └── Download repo
-    
+
 Paper Reviewer:
 Home → Results → Methods
 └── Verify analysis

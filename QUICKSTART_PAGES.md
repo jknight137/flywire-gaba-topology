@@ -22,18 +22,21 @@ git push -u origin master
 
 Replace `yourusername` with your actual GitHub username in these files:
 
-**docs/_config.yml** (line 6-7):
+**docs/\_config.yml** (line 6-7):
+
 ```yaml
 url: "https://[YOUR-USERNAME].github.io"
 repository: [YOUR-USERNAME]/flywire-gaba-topology
 ```
 
 **docs/index.md** (multiple locations):
+
 ```markdown
 [GitHub repository](https://github.com/[YOUR-USERNAME]/flywire-gaba-topology)
 ```
 
 Then commit and push:
+
 ```bash
 git add docs/_config.yml docs/index.md
 git commit -m "Update GitHub username in config"
@@ -71,6 +74,7 @@ Your new website includes:
 ### Change Site Title/Description
 
 Edit `docs/_config.yml`:
+
 ```yaml
 title: "Your Custom Title"
 description: "Your custom description"
@@ -81,6 +85,7 @@ email: your.email@institution.edu
 ### Change Color Scheme
 
 Edit `docs/assets/css/style.scss` and search for:
+
 - `#667eea` (primary purple)
 - `#764ba2` (secondary purple)
 
@@ -116,6 +121,7 @@ Visit: `http://localhost:4000/flywire-gaba-topology/`
 ## 📚 Full Documentation
 
 See [GITHUB_PAGES_SETUP.md](../GITHUB_PAGES_SETUP.md) for:
+
 - Detailed setup instructions
 - Advanced customization options
 - Troubleshooting guide
@@ -126,14 +132,17 @@ See [GITHUB_PAGES_SETUP.md](../GITHUB_PAGES_SETUP.md) for:
 ## 🆘 Troubleshooting
 
 **Site not building?**
+
 - Check the "Actions" tab in GitHub for error messages
 - Ensure `docs/_config.yml` has valid YAML syntax
 
 **404 errors?**
+
 - Verify `baseurl` in `_config.yml` matches repo name
 - Check that all file names are lowercase
 
 **Styling not working?**
+
 - Clear browser cache
 - Wait 2-3 minutes for GitHub to rebuild
 
@@ -142,6 +151,7 @@ See [GITHUB_PAGES_SETUP.md](../GITHUB_PAGES_SETUP.md) for:
 ## 🎉 You're All Set!
 
 Your professional research website is ready to share with:
+
 - Collaborators
 - Reviewers
 - The broader research community

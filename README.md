@@ -1,4 +1,4 @@
-# Neurotransmitter-Specific Clustering Reveals Distinct Topological Roles in the *Drosophila* Brain Connectome
+# Neurotransmitter-Specific Clustering Reveals Distinct Topological Roles in the _Drosophila_ Brain Connectome
 
 Analysis code and data for the paper investigating how neurotransmitter identity shapes network topology in the FlyWire v630 whole-brain connectome.
 
@@ -6,8 +6,8 @@ Analysis code and data for the paper investigating how neurotransmitter identity
 
 ## Key Findings
 
-1. **GABA-GABA transitivity (0.396)** exceeds ACh-GABA transitivity (0.0005) by **~714-fold** (95% CI: 607–883×, permutation test *p* < 0.001)
-2. **100% of the 20 highest-degree hub neurons are GABAergic** (*p* < 10⁻⁹, binomial test)
+1. **GABA-GABA transitivity (0.396)** exceeds ACh-GABA transitivity (0.0005) by **~714-fold** (95% CI: 607–883×, permutation test _p_ < 0.001)
+2. **100% of the 20 highest-degree hub neurons are GABAergic** (_p_ < 10⁻⁹, binomial test)
 3. The network exhibits **scale-free** degree distribution (α = 2.37) and **small-world** properties (125× higher clustering than random graphs)
 
 ## Repository Structure
@@ -89,6 +89,7 @@ The primary dataset (`data/v630-all-reciprocal-pairs-s1.csv`) is derived from th
 ## GitHub Pages Website
 
 Visit our [project website](https://yourusername.github.io/flywire-gaba-topology/) for:
+
 - Interactive documentation and visualizations
 - Detailed methodology and statistical analyses
 - Comprehensive results with all figures
@@ -100,11 +101,11 @@ The website is built with Jekyll and hosted on GitHub Pages in the `docs/` direc
 
 If you use this code or analysis, please cite:
 
-> [Author]. Neurotransmitter-Specific Clustering Reveals Distinct Topological Roles in the *Drosophila* Brain Connectome. *bioRxiv* (2026). doi: [pending]
+> [Author]. Neurotransmitter-Specific Clustering Reveals Distinct Topological Roles in the _Drosophila_ Brain Connectome. _bioRxiv_ (2026). doi: [pending]
 
 And the FlyWire dataset:
 
-> Dorkenwald, S. et al. Neuronal wiring diagram of an adult brain. *Nature* 634, 124–138 (2024).
+> Dorkenwald, S. et al. Neuronal wiring diagram of an adult brain. _Nature_ 634, 124–138 (2024).
 
 ## License
 

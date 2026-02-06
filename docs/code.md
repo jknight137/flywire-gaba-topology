@@ -78,6 +78,7 @@ python nt_subnetwork_analysis.py
 ```
 
 **Outputs:**
+
 - `results/real_network_summary.csv` — Overall network metrics
 - `results/hub_neurons.csv` — Top 100 hub neurons with NT labels
 - `results/nt_subnetwork_stats.csv` — Statistics for all 21 NT-pair subnetworks
@@ -94,6 +95,7 @@ python bootstrap_nt_transitivity.py
 ```
 
 **Outputs:**
+
 - `results/bootstrap_nt_transitivity_samples.csv` — All 1,000 bootstrap samples
 - `results/bootstrap_nt_transitivity_summary.csv` — Summary statistics
 - `results/bootstrap_nt_transitivity_ci.csv` — 95% confidence intervals
@@ -113,6 +115,7 @@ python permutation_test_analysis.py
 ```
 
 **Outputs:**
+
 - `results/permutation_test_results.csv` — All 1,000 permutation samples
 - `results/permutation_test_summary.csv` — Summary statistics and p-values
 
@@ -131,6 +134,7 @@ python generate_supplementary_table.py
 ```
 
 **Outputs:**
+
 - `results/hub_sensitivity.csv` — GABA enrichment across hub thresholds
 - `results/supplementary_table_s1_all_21_pairs.csv` — Complete NT-pair statistics
 
@@ -146,6 +150,7 @@ python generate_paper_figures.py
 ```
 
 **Outputs (both PNG and PDF):**
+
 - `figures/figure1_transitivity_comparison.{png,pdf}`
 - `figures/figure2_subnetwork_heatmap.{png,pdf}`
 - `figures/figure3_hub_composition.{png,pdf}`
@@ -181,6 +186,7 @@ Analyzes the full reciprocal network:
 - Neurotransmitter composition of hubs
 
 **Key functions:**
+
 - `compute_network_stats()` — Overall network metrics
 - `identify_hubs()` — Extract top-degree neurons
 - `test_gaba_enrichment()` — Binomial test for GABA over-representation
@@ -195,6 +201,7 @@ Constructs and analyzes all 21 neurotransmitter-specific subnetworks:
 - Cross-NT pairs (15 combinations: GABA-ACh, ACh-Glut, etc.)
 
 **Metrics computed per subnetwork:**
+
 - Number of edges (reciprocal pairs)
 - Number of nodes (neurons)
 - Transitivity (clustering coefficient)
@@ -203,6 +210,7 @@ Constructs and analyzes all 21 neurotransmitter-specific subnetworks:
 - Average degree
 
 **Key functions:**
+
 - `extract_nt_subnetwork()` — Build NT-specific graph
 - `compute_subnetwork_stats()` — Calculate all metrics
 
@@ -219,6 +227,7 @@ Generates bootstrap confidence intervals for transitivity estimates:
 5. Report percentile-based 95% CIs
 
 **Key parameters:**
+
 - `n_iterations = 1000`
 - `random_seed = 42`
 - Focuses on GABA-GABA and ACh-GABA pairs
@@ -236,6 +245,7 @@ Tests the null hypothesis that NT identity doesn't affect clustering:
 5. Compare observed value to null distribution
 
 **Key parameters:**
+
 - `n_permutations = 1000`
 - `random_seed = 42`
 
@@ -276,6 +286,7 @@ Uses seaborn for statistical plotting and matplotlib for customization.
 **File:** `data/v630-all-reciprocal-pairs-s1.csv`
 
 **Columns:**
+
 - `pre_root_id` — Presynaptic neuron ID
 - `post_root_id` — Postsynaptic neuron ID
 - `pre_nt` — Presynaptic neurotransmitter
@@ -310,17 +321,17 @@ Additional neuron classifications in `data/classifications/`:
 
 ### Runtime Summary
 
-| Script                              | Runtime  |
-|-------------------------------------|----------|
-| `real_network_analysis.py`          | ~2 min   |
-| `nt_subnetwork_analysis.py`         | ~2 min   |
-| `bootstrap_nt_transitivity.py`      | ~5 min   |
-| `permutation_test_nt.py`            | ~30 min  |
-| `permutation_test_analysis.py`      | <1 min   |
-| `hub_sensitivity.py`                | ~1 min   |
-| `generate_supplementary_table.py`   | <1 min   |
-| `generate_paper_figures.py`         | ~30 sec  |
-| **Total (full pipeline)**           | **~40 min** |
+| Script                            | Runtime     |
+| --------------------------------- | ----------- |
+| `real_network_analysis.py`        | ~2 min      |
+| `nt_subnetwork_analysis.py`       | ~2 min      |
+| `bootstrap_nt_transitivity.py`    | ~5 min      |
+| `permutation_test_nt.py`          | ~30 min     |
+| `permutation_test_analysis.py`    | <1 min      |
+| `hub_sensitivity.py`              | ~1 min      |
+| `generate_supplementary_table.py` | <1 min      |
+| `generate_paper_figures.py`       | ~30 sec     |
+| **Total (full pipeline)**         | **~40 min** |
 
 ---
 

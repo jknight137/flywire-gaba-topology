@@ -7,13 +7,13 @@ title: About
 
 ## Overview
 
-This website presents research on neurotransmitter-specific topology in the *Drosophila* brain connectome using data from the FlyWire v630 whole-brain reconstruction.
+This website presents research on neurotransmitter-specific topology in the _Drosophila_ brain connectome using data from the FlyWire v630 whole-brain reconstruction.
 
 ## Research Context
 
 ### The FlyWire Connectome
 
-The [FlyWire project](https://codex.flywire.ai/) represents one of the most ambitious neuroscience efforts to date: reconstructing every neuron and synapse in an adult *Drosophila melanogaster* brain. With over 130,000 neurons and millions of synapses, this dataset enables unprecedented analysis of neural circuit organization.
+The [FlyWire project](https://codex.flywire.ai/) represents one of the most ambitious neuroscience efforts to date: reconstructing every neuron and synapse in an adult _Drosophila melanogaster_ brain. With over 130,000 neurons and millions of synapses, this dataset enables unprecedented analysis of neural circuit organization.
 
 ### Why Neurotransmitter-Specific Analysis?
 
@@ -39,6 +39,7 @@ GABAergic neurons form highly clustered local modules, while cross-transmitter c
 ### 3. Dual Topological Role
 
 The combination of local clustering + hub dominance suggests GABAergic neurons serve both:
+
 - **Local processing:** Dense modules for gain control
 - **Global coordination:** Central hubs for brain-wide synchronization
 
@@ -130,12 +131,12 @@ This is an open science project. We welcome:
 
 ### Primary Paper
 
-> [Author]. Neurotransmitter-Specific Clustering Reveals Distinct Topological Roles in the *Drosophila* Brain Connectome. *bioRxiv* (2026). doi: [pending]
+> [Author]. Neurotransmitter-Specific Clustering Reveals Distinct Topological Roles in the _Drosophila_ Brain Connectome. _bioRxiv_ (2026). doi: [pending]
 
 ### Related Work
 
-- Dorkenwald, S. et al. (2024). Neuronal wiring diagram of an adult brain. *Nature* 634, 124–138.
-- Eckstein, N. et al. (2024). Neurotransmitter classification from electron microscopy. *Cell* 187, 2574–2594.
+- Dorkenwald, S. et al. (2024). Neuronal wiring diagram of an adult brain. _Nature_ 634, 124–138.
+- Eckstein, N. et al. (2024). Neurotransmitter classification from electron microscopy. _Cell_ 187, 2574–2594.
 
 ## Acknowledgments
 

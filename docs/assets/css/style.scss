@@ -35,7 +35,9 @@
   padding: 1.5rem;
   border-radius: 8px;
   border-left: 4px solid #667eea;
-  transition: transform 0.2s, box-shadow 0.2s;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
 }
 
 .finding:hover {
@@ -107,7 +109,9 @@ table strong {
   text-decoration: none !important;
   border-radius: 6px;
   font-weight: 600;
-  transition: background 0.2s, transform 0.2s;
+  transition:
+    background 0.2s,
+    transform 0.2s;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -131,7 +135,7 @@ code {
   background: #f4f4f4;
   padding: 0.2rem 0.4rem;
   border-radius: 3px;
-  font-family: 'Monaco', 'Menlo', monospace;
+  font-family: "Monaco", "Menlo", monospace;
   font-size: 0.9em;
 }
 
@@ -161,19 +165,19 @@ pre code {
   .findings-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .resource-links {
     flex-direction: column;
   }
-  
+
   .btn {
     text-align: center;
   }
-  
+
   .hero {
     padding: 2rem 1rem;
   }
-  
+
   .hero .lead {
     font-size: 1.1rem;
   }
@@ -203,7 +207,12 @@ hr {
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: #2d3748;
   font-weight: 600;
   margin-top: 2rem;
@@ -228,7 +237,8 @@ em {
 }
 
 /* Lists */
-ul, ol {
+ul,
+ol {
   line-height: 1.8;
   margin: 1rem 0;
 }

@@ -3,13 +3,13 @@
 # Site settings
 title: "GABA Topology Study"
 description: "Neurotransmitter-specific clustering in the Drosophila brain connectome"
-author: "Your Name"
-email: your.email@institution.edu
+author: "John Knight"
+email: john.knight.1@und.edu
 baseurl: "/flywire-gaba-topology"
-url: "https://yourusername.github.io"
+url: "https://jknight137.github.io"
 
 # GitHub repository
-repository: yourusername/flywire-gaba-topology
+repository: jknight137/flywire-gaba-topology
 
 # Build settings
 theme: jekyll-theme-cayman
@@ -17,7 +17,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
-  
+
 # Plugins
 plugins:
   - jekyll-seo-tag

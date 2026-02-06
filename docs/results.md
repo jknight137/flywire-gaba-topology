@@ -15,12 +15,12 @@ The most striking finding is the **extreme difference in clustering** between GA
 
 ### Key Statistics
 
-| Metric                    | Value                         |
-|---------------------------|-------------------------------|
-| GABA-GABA transitivity    | **0.396** (95% CI: 0.380-0.412) |
-| ACh-GABA transitivity     | **0.0005** (95% CI: 0.00042-0.00058) |
-| Fold difference           | **~714×** (95% CI: 607–883×)  |
-| Bootstrap p-value         | **< 0.001** (1,000 iterations) |
+| Metric                 | Value                                |
+| ---------------------- | ------------------------------------ |
+| GABA-GABA transitivity | **0.396** (95% CI: 0.380-0.412)      |
+| ACh-GABA transitivity  | **0.0005** (95% CI: 0.00042-0.00058) |
+| Fold difference        | **~714×** (95% CI: 607–883×)         |
+| Bootstrap p-value      | **< 0.001** (1,000 iterations)       |
 
 In 1,000 bootstrap samples, **100% showed GABA-GABA transitivity exceeding ACh-GABA transitivity**.
 
@@ -28,15 +28,15 @@ In 1,000 bootstrap samples, **100% showed GABA-GABA transitivity exceeding ACh-G
 
 A permutation test (1,000 iterations with shuffled NT labels) confirmed that this clustering difference is attributable to NT identity:
 
-| Statistic              | Value        |
-|------------------------|--------------|
-| Observed GABA-GABA transitivity | **0.396** |
-| Null mean              | 0.041        |
-| Null median            | 0.024        |
-| Null 95% CI            | [0.005, 0.117] |
-| Maximum null value     | 0.181        |
-| Fold above null mean   | **9.7×**     |
-| **p-value**            | **< 0.001**  |
+| Statistic                       | Value          |
+| ------------------------------- | -------------- |
+| Observed GABA-GABA transitivity | **0.396**      |
+| Null mean                       | 0.041          |
+| Null median                     | 0.024          |
+| Null 95% CI                     | [0.005, 0.117] |
+| Maximum null value              | 0.181          |
+| Fold above null mean            | **9.7×**       |
+| **p-value**                     | **< 0.001**    |
 
 The observed value exceeds the maximum null value by **more than 2-fold**, providing strong evidence that GABA-specific clustering is not attributable to chance or network topology alone.
 
@@ -54,8 +54,8 @@ Transitivity varies systematically across NT pair types:
 
 ### Primary Subnetworks
 
-| NT Pair   | N Pairs | N Neurons | Transitivity | Giant Component % |
-|-----------|---------|-----------|--------------|-------------------|
+| NT Pair       | N Pairs | N Neurons | Transitivity | Giant Component % |
+| ------------- | ------- | --------- | ------------ | ----------------- |
 | **GABA-GABA** | 10,214  | 6,832     | **0.396**    | 44.7%             |
 | **ACh-ACh**   | 18,754  | 17,578    | 0.062        | 33.9%             |
 | **Glut-Glut** | 5,144   | 5,178     | 0.061        | 27.0%             |
@@ -87,17 +87,17 @@ Analysis of the **20 highest-degree hub neurons** (degree ≥ 708) reveals strik
 
 ### Hub Composition
 
-| Category           | Count | Percentage | Expected under null |
-|--------------------|-------|------------|---------------------|
-| **GABAergic**      | **20**| **100%**   | 3.2 neurons         |
-| Cholinergic        | 0     | 0%         | 9.1 neurons         |
-| Glutamatergic      | 0     | 0%         | 4.7 neurons         |
-| Other (DA/Ser/Oct) | 0     | 0%         | 3.0 neurons         |
+| Category           | Count  | Percentage | Expected under null |
+| ------------------ | ------ | ---------- | ------------------- |
+| **GABAergic**      | **20** | **100%**   | 3.2 neurons         |
+| Cholinergic        | 0      | 0%         | 9.1 neurons         |
+| Glutamatergic      | 0      | 0%         | 4.7 neurons         |
+| Other (DA/Ser/Oct) | 0      | 0%         | 3.0 neurons         |
 
 ### Statistical Significance
 
 - **Enrichment:** 6.2-fold over baseline GABAergic fraction (16.2%)
-- **Binomial test:** *p* < 10⁻⁹
+- **Binomial test:** _p_ < 10⁻⁹
 - **Robustness:** Enrichment persists across hub thresholds from k=10 to k=500
 
 ### Interpretation
@@ -122,18 +122,20 @@ The full reciprocal network exhibits characteristic complex network properties.
 
 ### Small-World Architecture
 
-| Metric                  | Observed | Random Network | Ratio  |
-|-------------------------|----------|----------------|--------|
-| Clustering coefficient  | 0.125    | 0.001          | **125×** |
-| Average path length     | ~3.5     | ~3.2           | 1.1×   |
+| Metric                 | Observed | Random Network | Ratio    |
+| ---------------------- | -------- | -------------- | -------- |
+| Clustering coefficient | 0.125    | 0.001          | **125×** |
+| Average path length    | ~3.5     | ~3.2           | 1.1×     |
 
 **Small-world criteria met:**
+
 - ✓ High clustering relative to random network
 - ✓ Short average path length similar to random network
 
 ### Biological Significance
 
 Small-world topology enables:
+
 - **Efficient information transfer** (short paths)
 - **Modular processing** (high clustering)
 - **Robustness to damage** (multiple redundant paths)
@@ -146,13 +148,13 @@ Small-world topology enables:
 
 We tested GABA enrichment across hub thresholds from k=10 to k=500:
 
-| Hub Threshold | GABA % | Baseline % | Enrichment | p-value      |
-|---------------|--------|------------|------------|--------------|
-| Top 10        | 100%   | 16.2%      | 6.2×       | < 10⁻⁵       |
-| Top 20        | 100%   | 16.2%      | 6.2×       | < 10⁻⁹       |
-| Top 50        | 96%    | 16.2%      | 5.9×       | < 10⁻²⁰      |
-| Top 100       | 89%    | 16.2%      | 5.5×       | < 10⁻³⁵      |
-| Top 500       | 68%    | 16.2%      | 4.2×       | < 10⁻¹⁰⁰     |
+| Hub Threshold | GABA % | Baseline % | Enrichment | p-value  |
+| ------------- | ------ | ---------- | ---------- | -------- |
+| Top 10        | 100%   | 16.2%      | 6.2×       | < 10⁻⁵   |
+| Top 20        | 100%   | 16.2%      | 6.2×       | < 10⁻⁹   |
+| Top 50        | 96%    | 16.2%      | 5.9×       | < 10⁻²⁰  |
+| Top 100       | 89%    | 16.2%      | 5.5×       | < 10⁻³⁵  |
+| Top 500       | 68%    | 16.2%      | 4.2×       | < 10⁻¹⁰⁰ |
 
 **Conclusion:** GABA enrichment is **extremely robust** and persists at all tested thresholds.
 
@@ -191,7 +193,7 @@ Cross-NT networks form **large spanning structures**, consistent with long-range
 ## Summary of Key Results
 
 1. **714-fold clustering difference** between GABA-GABA (0.396) and ACh-GABA (0.0005)
-2. **100% of top 20 hubs are GABAergic** (*p* < 10⁻⁹)
+2. **100% of top 20 hubs are GABAergic** (_p_ < 10⁻⁹)
 3. **Scale-free degree distribution** (α = 2.37)
 4. **Small-world architecture** (125× random clustering)
 5. **Inverse correlation** between clustering and giant component fraction

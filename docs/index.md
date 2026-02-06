@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# Neurotransmitter-Specific Clustering Reveals Distinct Topological Roles in the *Drosophila* Brain Connectome
+# Neurotransmitter-Specific Clustering Reveals Distinct Topological Roles in the _Drosophila_ Brain Connectome
 
 <div class="hero">
   <p class="lead">A computational neuroscience study revealing how GABAergic neurons dominate network hubs and form highly clustered local circuits in the <em>Drosophila</em> brain connectome.</p>
@@ -34,7 +34,7 @@ title: Home
 
 ## Abstract
 
-The FlyWire connectome provides an unprecedented view of synaptic connectivity in the adult *Drosophila* brain, including neurotransmitter identity for most neurons. We analyzed the topological structure of neurotransmitter-specific subnetworks within **180,799 reciprocal synaptic pairs** among **77,607 neurons**.
+The FlyWire connectome provides an unprecedented view of synaptic connectivity in the adult _Drosophila_ brain, including neurotransmitter identity for most neurons. We analyzed the topological structure of neurotransmitter-specific subnetworks within **180,799 reciprocal synaptic pairs** among **77,607 neurons**.
 
 Our analysis reveals three major findings:
 
@@ -65,7 +65,7 @@ We constructed 21 neurotransmitter-specific subnetworks (6 same-type + 15 cross-
 - **Component structure:** Giant component fraction
 - **Statistical validation:** Bootstrap confidence intervals (1,000 iterations) and permutation tests
 
-All code is available in our [GitHub repository](https://github.com/yourusername/flywire-gaba-topology).
+All code is available in our [GitHub repository](https://github.com/jknight137/flywire-gaba-topology).
 
 ---
 
@@ -74,7 +74,7 @@ All code is available in our [GitHub repository](https://github.com/yourusername
 ### Extreme Clustering Differences
 
 | NT Pair   | N Pairs | Transitivity | Giant Component |
-|-----------|---------|--------------|-----------------|
+| --------- | ------- | ------------ | --------------- |
 | GABA-GABA | 10,214  | **0.396**    | 44.7%           |
 | ACh-ACh   | 18,754  | 0.062        | 33.9%           |
 | Glut-Glut | 5,144   | 0.061        | 27.0%           |
@@ -91,7 +91,7 @@ Analysis of the 20 highest-degree neurons (degree ≥ 708):
 - **GABAergic:** 20/20 (100%)
 - **Expected under null:** 3.2 neurons
 - **Enrichment:** 6.2-fold
-- **Statistical significance:** *p* < 10⁻⁹ (binomial test)
+- **Statistical significance:** _p_ < 10⁻⁹ (binomial test)
 
 This enrichment is robust across hub thresholds from k=10 to k=500.
 
@@ -99,7 +99,7 @@ This enrichment is robust across hub thresholds from k=10 to k=500.
 
 ## Biological Implications
 
-Our findings suggest that **GABAergic neurons occupy a privileged position** in the *Drosophila* brain network:
+Our findings suggest that **GABAergic neurons occupy a privileged position** in the _Drosophila_ brain network:
 
 1. **Local processing:** High GABA-GABA clustering enables dense inhibitory modules for gain control and lateral inhibition
 2. **Global coordination:** GABA hub dominance positions inhibitory neurons as central coordinators of brain-wide activity
@@ -151,7 +151,7 @@ If you use this work, please cite:
 
 ## Contact & Collaboration
 
-Interested in collaborating or have questions? Please [open an issue](https://github.com/yourusername/flywire-gaba-topology/issues) on our GitHub repository.
+Interested in collaborating or have questions? Please [open an issue](https://github.com/jknight137/flywire-gaba-topology/issues) on our GitHub repository.
 
 ---
 

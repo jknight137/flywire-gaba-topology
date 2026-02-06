@@ -5,6 +5,7 @@
 A complete, professional GitHub Pages website for your GABA topology research project with:
 
 ### Core Pages (5 pages)
+
 1. **Home** ([index.md](docs/index.md)) - Overview, key findings, abstract
 2. **Methods** ([methods.md](docs/methods.md)) - Detailed methodology
 3. **Results** ([results.md](docs/results.md)) - Comprehensive results
@@ -12,12 +13,14 @@ A complete, professional GitHub Pages website for your GABA topology research pr
 5. **About** ([about.md](docs/about.md)) - Project context
 
 ### Technical Infrastructure
-- **Jekyll Configuration** ([_config.yml](docs/_config.yml))
-- **Custom Layout** ([_layouts/default.html](docs/_layouts/default.html))
+
+- **Jekyll Configuration** ([\_config.yml](docs/_config.yml))
+- **Custom Layout** ([\_layouts/default.html](docs/_layouts/default.html))
 - **Custom Styling** ([assets/css/style.scss](docs/assets/css/style.scss))
 - **Ruby Dependencies** ([Gemfile](docs/Gemfile))
 
 ### Documentation
+
 - **Quick Start Guide** ([QUICKSTART_PAGES.md](QUICKSTART_PAGES.md))
 - **Full Setup Guide** ([GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md))
 - **Docs README** ([docs/README.md](docs/README.md))
@@ -27,6 +30,7 @@ A complete, professional GitHub Pages website for your GABA topology research pr
 ## 🎯 Key Features
 
 ### Content
+
 - ✅ All key findings highlighted with visual cards
 - ✅ Complete methodology documentation
 - ✅ Statistical results with tables and summaries
@@ -36,6 +40,7 @@ A complete, professional GitHub Pages website for your GABA topology research pr
 - ✅ Data licensing and acknowledgments
 
 ### Design
+
 - ✅ Modern, professional appearance
 - ✅ Responsive layout (mobile-friendly)
 - ✅ Custom color scheme (purple gradient)
@@ -45,6 +50,7 @@ A complete, professional GitHub Pages website for your GABA topology research pr
 - ✅ Math equation support (MathJax)
 
 ### Technical
+
 - ✅ Jekyll static site generator
 - ✅ Cayman theme as base
 - ✅ SEO optimization (meta tags, sitemap)
@@ -59,6 +65,7 @@ A complete, professional GitHub Pages website for your GABA topology research pr
 ### Immediate (Required)
 
 1. **Push to GitHub:**
+
    ```bash
    git add .
    git commit -m "Add GitHub Pages website"
@@ -133,17 +140,20 @@ Existing files (unchanged):
 ## 🎨 Design Choices
 
 ### Color Scheme
+
 - **Primary:** Purple gradient (#667eea → #764ba2)
 - **Rationale:** Professional, modern, stands out from default themes
 - **Easy to change:** Search/replace hex codes in `style.scss`
 
 ### Layout
+
 - **Single-column:** Easy reading on all devices
 - **Clear sections:** Horizontal rules separate topics
 - **Card-based findings:** Visual hierarchy for key results
 - **Navigation menu:** Always visible at top
 
 ### Typography
+
 - **Sans-serif:** Clean, modern look
 - **Multiple heading levels:** Clear information hierarchy
 - **Monospace code:** Distinct code blocks
@@ -154,18 +164,21 @@ Existing files (unchanged):
 ## 🔧 Technologies Used
 
 ### Core
+
 - **Jekyll 3.9+** - Static site generator
 - **Liquid** - Templating language
 - **Kramdown** - Markdown processor
 - **Rouge** - Syntax highlighting
 
 ### Frontend
+
 - **HTML5** - Semantic markup
 - **SCSS** - Styling (compiled to CSS)
 - **MathJax 3** - Math equation rendering
 - **Responsive CSS** - Mobile-friendly layout
 
 ### Hosting
+
 - **GitHub Pages** - Free hosting
 - **GitHub Actions** - Automatic deployment
 - **CDN** - Fast global delivery
@@ -187,6 +200,7 @@ Existing files (unchanged):
 ## ✨ Best Practices Implemented
 
 ### SEO
+
 - ✅ Descriptive page titles
 - ✅ Meta descriptions
 - ✅ Semantic HTML
@@ -195,6 +209,7 @@ Existing files (unchanged):
 - ✅ Clean URLs
 
 ### Performance
+
 - ✅ Minimal JavaScript
 - ✅ Optimized CSS
 - ✅ CDN resources
@@ -202,6 +217,7 @@ Existing files (unchanged):
 - ✅ Browser caching
 
 ### Accessibility
+
 - ✅ Semantic HTML
 - ✅ Color contrast
 - ✅ Keyboard navigation
@@ -209,6 +225,7 @@ Existing files (unchanged):
 - ✅ Responsive design
 
 ### Maintainability
+
 - ✅ Clear file structure
 - ✅ Commented code
 - ✅ Modular design
@@ -236,6 +253,7 @@ Once live, share at:
 **URL:** `https://[your-username].github.io/flywire-gaba-topology/`
 
 Great for:
+
 - ✅ Grant applications
 - ✅ Conference presentations
 - ✅ Preprint submissions
@@ -309,6 +327,7 @@ Before going live:
 Your GitHub Pages website is ready to showcase your research to the world!
 
 **Built following best practices for:**
+
 - Academic research presentation
 - Open science principles
 - Professional web design
@@ -317,6 +336,7 @@ Your GitHub Pages website is ready to showcase your research to the world!
 - Accessibility standards
 
 **Your site will help:**
+
 - Increase research visibility
 - Facilitate collaboration
 - Share reproducible methods
@@ -325,5 +345,5 @@ Your GitHub Pages website is ready to showcase your research to the world!
 
 ---
 
-*Generated: February 6, 2026*
-*For: FlyWire GABA Topology Research Project*
+_Generated: February 6, 2026_
+_For: FlyWire GABA Topology Research Project_

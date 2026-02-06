@@ -13,7 +13,7 @@ Detailed methodology for the neurotransmitter-specific topology analysis.
 
 ### FlyWire v630 Connectome
 
-We used the FlyWire v630 connectome (Dorkenwald et al., 2024), accessed via [codex.flywire.ai](https://codex.flywire.ai/). This represents the most complete adult *Drosophila* brain connectome to date.
+We used the FlyWire v630 connectome (Dorkenwald et al., 2024), accessed via [codex.flywire.ai](https://codex.flywire.ai/). This represents the most complete adult _Drosophila_ brain connectome to date.
 
 **Dataset characteristics:**
 
@@ -31,6 +31,7 @@ We used the maximum-confidence prediction for each neuron without applying an ad
 **Note:** ~10% misclassification would tend to blur boundaries between NT-specific subnetworks, making our reported transitivity differences **conservative estimates** of the true NT-specific clustering.
 
 **Neurotransmitter types analyzed:**
+
 - **GABA** (γ-aminobutyric acid) — primary inhibitory
 - **ACh** (Acetylcholine) — primary fast excitatory
 - **Glut** (Glutamate) — excitatory
@@ -50,6 +51,7 @@ For each transmitter pair (e.g., GABA-GABA, GABA-ACh), we extracted the subgraph
 - **Edges:** Reciprocal pairs between nodes of the specified types
 
 This produced **21 unique subnetworks**:
+
 - 6 same-type subnetworks (GABA-GABA, ACh-ACh, etc.)
 - 15 cross-type subnetworks (GABA-ACh, ACh-Glut, etc.)
 
@@ -68,11 +70,13 @@ C = \frac{3 \times \text{triangles}}{\text{connected triples}}
 $$
 
 **Why transitivity?**
+
 - More robust to degree heterogeneity than local clustering coefficient
 - Less sensitive to sampling effects
 - Better captures global clustering patterns in large networks
 
 **Interpretation:**
+
 - High transitivity → clustered, modular structure
 - Low transitivity → sparse, tree-like or star-like structure
 
@@ -81,6 +85,7 @@ $$
 For each subnetwork, we identified connected components and computed the fraction of nodes in the largest (giant) component.
 
 **Interpretation:**
+
 - High fraction → connected, spanning network
 - Low fraction → fragmented, modular structure
 
@@ -89,6 +94,7 @@ For each subnetwork, we identified connected components and computed the fractio
 We analyzed the degree distribution of the full reciprocal network to characterize hub structure.
 
 **Metrics computed:**
+
 - Power-law exponent (α) via maximum likelihood
 - Goodness-of-fit to power-law vs. exponential models
 - Hub composition by neurotransmitter type
@@ -209,8 +215,8 @@ All data and code are publicly available:
 
 ## References
 
-1. **Dorkenwald, S. et al.** (2024). Neuronal wiring diagram of an adult brain. *Nature* 634, 124–138.
-2. **Eckstein, N. et al.** (2024). Neurotransmitter classification from electron microscopy images at synaptic sites in *Drosophila* melanogaster. *Cell* 187, 2574–2594.
+1. **Dorkenwald, S. et al.** (2024). Neuronal wiring diagram of an adult brain. _Nature_ 634, 124–138.
+2. **Eckstein, N. et al.** (2024). Neurotransmitter classification from electron microscopy images at synaptic sites in _Drosophila_ melanogaster. _Cell_ 187, 2574–2594.
 3. **FlyWire Consortium** — [https://codex.flywire.ai/](https://codex.flywire.ai/)
 
 ---
