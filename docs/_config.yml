@@ -1,0 +1,52 @@
+# Jekyll configuration for GitHub Pages
+
+# Site settings
+title: "GABA Topology Study"
+description: "Neurotransmitter-specific clustering in the Drosophila brain connectome"
+author: "Your Name"
+email: your.email@institution.edu
+baseurl: "/flywire-gaba-topology"
+url: "https://yourusername.github.io"
+
+# GitHub repository
+repository: yourusername/flywire-gaba-topology
+
+# Build settings
+theme: jekyll-theme-cayman
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name
+
+# Exclude files from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+
+# Include files
+include:
+  - _pages
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

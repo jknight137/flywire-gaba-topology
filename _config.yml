@@ -1,0 +1,4 @@
+# Configure GitHub Pages to use docs/ folder
+# and specify the theme
+
+theme: jekyll-theme-cayman

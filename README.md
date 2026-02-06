@@ -2,6 +2,8 @@
 
 Analysis code and data for the paper investigating how neurotransmitter identity shapes network topology in the FlyWire v630 whole-brain connectome.
 
+**🌐 [View Project Website](https://yourusername.github.io/flywire-gaba-topology/)** — Interactive documentation with detailed methods, results, and visualizations
+
 ## Key Findings
 
 1. **GABA-GABA transitivity (0.396)** exceeds ACh-GABA transitivity (0.0005) by **~714-fold** (95% CI: 607–883×, permutation test *p* < 0.001)
@@ -83,6 +85,16 @@ Pre-computed results are included in `results/` so you can skip directly to Step
 The primary dataset (`data/v630-all-reciprocal-pairs-s1.csv`) is derived from the [FlyWire v630 connectome](https://codex.flywire.ai/) (Dorkenwald et al., 2024). It contains 180,799 reciprocal synaptic pairs among 77,607 neurons with neurotransmitter predictions from Eckstein et al. (2024). The data is released under the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/) by the FlyWire consortium.
 
 **Neurotransmitter types:** ACh, GABA, Glutamate, Serotonin, Dopamine, Octopamine
+
+## GitHub Pages Website
+
+Visit our [project website](https://yourusername.github.io/flywire-gaba-topology/) for:
+- Interactive documentation and visualizations
+- Detailed methodology and statistical analyses
+- Comprehensive results with all figures
+- Code documentation and reproducibility guide
+
+The website is built with Jekyll and hosted on GitHub Pages in the `docs/` directory.
 
 ## Citation
 

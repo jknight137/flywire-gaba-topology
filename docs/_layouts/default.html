@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% seo %}
+    
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    
+    <!-- MathJax for LaTeX equations -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+  </head>
+  <body>
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      
+      <nav class="main-nav">
+        <a href="{{ site.baseurl }}/" class="btn">Home</a>
+        <a href="{{ site.baseurl }}/methods" class="btn">Methods</a>
+        <a href="{{ site.baseurl }}/results" class="btn">Results</a>
+        <a href="{{ site.baseurl }}/code" class="btn">Code</a>
+        <a href="{{ site.baseurl }}/about" class="btn">About</a>
+        <a href="{{ site.github.repository_url }}" class="btn">GitHub</a>
+      </nav>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        <p>This site is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        <p><small>Data from the FlyWire Consortium (CC-BY 4.0) | Hosted on GitHub Pages</small></p>
+      </footer>
+    </main>
+  </body>
+</html>

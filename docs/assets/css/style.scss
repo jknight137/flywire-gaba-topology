@@ -1,0 +1,247 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Custom styling for the GABA topology website */
+
+/* Hero section */
+.hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 3rem 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero .lead {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  margin: 0;
+  font-weight: 400;
+}
+
+/* Findings grid */
+.findings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.finding {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.finding:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.finding h3 {
+  color: #667eea;
+  margin-top: 0;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.finding p {
+  margin: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+thead {
+  background: #667eea;
+  color: white;
+}
+
+th {
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+tbody tr:hover {
+  background: #f8f9fa;
+}
+
+/* Strong emphasis in tables */
+table strong {
+  color: #667eea;
+  font-weight: 700;
+}
+
+/* Resource links */
+.resource-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #667eea;
+  color: white !important;
+  text-decoration: none !important;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  background: #5568d3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Code blocks */
+pre {
+  background: #282c34;
+  color: #abb2bf;
+  padding: 1.5rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+code {
+  background: #f4f4f4;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-family: 'Monaco', 'Menlo', monospace;
+  font-size: 0.9em;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+}
+
+/* Footer note */
+.footer-note {
+  margin-top: 3rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 6px;
+  border-left: 4px solid #6c757d;
+}
+
+.footer-note p {
+  margin: 0;
+  color: #6c757d;
+  font-size: 0.95rem;
+  font-style: italic;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .findings-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .resource-links {
+    flex-direction: column;
+  }
+  
+  .btn {
+    text-align: center;
+  }
+  
+  .hero {
+    padding: 2rem 1rem;
+  }
+  
+  .hero .lead {
+    font-size: 1.1rem;
+  }
+}
+
+/* Navigation improvements */
+.page-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Links */
+a {
+  color: #667eea;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5568d3;
+  text-decoration: underline;
+}
+
+/* Horizontal rules */
+hr {
+  border: none;
+  border-top: 2px solid #e9ecef;
+  margin: 2.5rem 0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #2d3748;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  color: #1a202c;
+  border-bottom: 3px solid #667eea;
+  padding-bottom: 0.5rem;
+}
+
+h2 {
+  border-bottom: 2px solid #e9ecef;
+  padding-bottom: 0.4rem;
+}
+
+/* Emphasis on em elements */
+em {
+  font-style: italic;
+  color: #667eea;
+}
+
+/* Lists */
+ul, ol {
+  line-height: 1.8;
+  margin: 1rem 0;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #667eea;
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+  color: #6c757d;
+  font-style: italic;
+}
