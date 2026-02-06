@@ -131,7 +131,7 @@ This is an open science project. We welcome:
 
 ### Primary Paper
 
-> [Author]. Neurotransmitter-Specific Clustering Reveals Distinct Topological Roles in the _Drosophila_ Brain Connectome. _bioRxiv_ (2026). doi: [pending]
+> John Knight Neurotransmitter-Specific Clustering Reveals Distinct Topological Roles in the _Drosophila_ Brain Connectome. _bioRxiv_ (2026). doi: [pending]
 
 ### Related Work
 
